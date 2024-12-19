@@ -26,7 +26,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:onClick="ash"
+                android:onClick="test7"
+                android:tag="ash"
                 android:text="ашан" />
 
             <Button
@@ -34,7 +35,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:onClick="dic"
+                android:onClick="test7"
+                android:tag="dic"
                 android:text="дикси" />
 
             <Button
@@ -42,7 +44,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:onClick="fix"
+                android:onClick="test7"
+                android:tag="fix"
                 android:text="fix" />
         </TableRow>
 
@@ -57,7 +60,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:onClick="len"
+                android:onClick="test7"
+                android:tag="len"
                 android:text="лента" />
 
             <Button
@@ -65,6 +69,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:onClick="test7"
+                android:tag="ok"
                 android:text="окей" />
 
             <Button
@@ -72,8 +78,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:onClick="test7"
+                android:tag="x5"
                 android:text="Х5" />
         </TableRow>
-
     </TableLayout>
 </LinearLayout>
